@@ -1,0 +1,6 @@
+id,user_id,cripto,valor_do_aporte
+1,1,Solana,100
+2,1,Bitcoin,500
+3,1,Bitcoin,0.10
+4,1,Solana,50
+5,2,Bitcoin,100.1

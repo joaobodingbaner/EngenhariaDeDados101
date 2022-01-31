@@ -20,7 +20,7 @@ INSERT INTO treinamento_lead.users("nome", "sobrenome") VALUES ('Priscila','Alca
 INSERT INTO treinamento_lead.users("nome", "sobrenome") VALUES ('Whinderson','Nunes');
 INSERT INTO treinamento_lead.users("nome", "sobrenome") VALUES ('Arselino','Freitas');
 
-INSERT INTO treinamento_lead.aport("user_id","cripto","valor_do_aporte") VALUES ('1','Solana',100)
-INSERT INTO treinamento_lead.aport("user_id","cripto","valor_do_aporte") VALUES ('1','Bitcoin',500)
-INSERT INTO treinamento_lead.aport("user_id","cripto","valor_do_aporte") VALUES ('1','Bitcoin',0.10)
-INSERT INTO treinamento_lead.aport("user_id","cripto","valor_do_aporte") VALUES ('1','Solana',50)
+INSERT INTO treinamento_lead.aporte("user_id","cripto","valor_do_aporte") VALUES ('1','Solana',100);
+INSERT INTO treinamento_lead.aporte("user_id","cripto","valor_do_aporte") VALUES ('1','Bitcoin',500);
+INSERT INTO treinamento_lead.aporte("user_id","cripto","valor_do_aporte") VALUES ('1','Bitcoin',0.10);
+INSERT INTO treinamento_lead.aporte("user_id","cripto","valor_do_aporte") VALUES ('1','Solana',50);

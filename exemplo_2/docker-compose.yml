@@ -1,5 +1,14 @@
 version: '3'
 services:
+  web:
+    build: "./../exemplo_1/"
+    container_name: treinamento_lead
+    ports:
+      - "8082:8082"
+    depends_on:
+      - db
+    networks:
+      - postgres-compose-network
   db:
     image: "postgres"
     ports:
